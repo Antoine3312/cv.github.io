@@ -259,7 +259,12 @@ header nav ul li a:hover{
     }
 
     /*Body*/
-    
+    .contenu-accueil{
+        width: 50%;
+        height: 60%;
+        margin: 25px;
+
+    }
     
     
 }
