@@ -191,7 +191,7 @@ header nav ul li a:hover{
     color: #333;
 }
 .c1-1, .c2-1{
-    flex: 1;
+    height: 100px;
     width: 100px;
     border: 1px solid black;
     border-radius: 200px;
@@ -209,10 +209,9 @@ header nav ul li a:hover{
 }
 
 .c1-2, .c2-2{
-    flex: 3;
+    height: 100px;
     width: 80%;
-    padding: 20px;
-    padding-top: 10%;
+
 }
 
 .continuer{
