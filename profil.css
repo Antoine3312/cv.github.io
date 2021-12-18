@@ -18,9 +18,6 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    height: 500px;
-}
 
 
 
@@ -182,6 +179,7 @@ body{
 
 
 .centre-interet{
+
     position: absolute;
     top: 660px;
     width: 100%;
@@ -195,7 +193,7 @@ body{
     border-bottom: 2px solid black;
 }
 .containeur-centre-interet{
-
+    position: relative;
     width: 95%;
     height: 95%;
     background: rgb(111,168,220);
@@ -207,12 +205,58 @@ body{
     justify-content: space-around;
 }
 
+.gros-titre{
+    position: absolute;
+    top: -20px;
+    font-size: 3rem;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: rgb(111,168,220);
+    font-family: 'Readex Pro';
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .contenu-centre-interet{
     width: 47%;
     height: 95%;
-    background: white;
+    background: rgb(111,168,220);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
+.contenu{
+    width: 100%;
+    height: 33%;
+    background: rgb(111,168,220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.img-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+    border: 3px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+}
+
+.titre-centre-interet{
+    font-family: 'Readex Pro';
+    text-align: center;
+}
 
 /*responsive*/
 @media (max-width: 1100px){
@@ -277,7 +321,9 @@ body{
     body{
         height: 1750px;
     }
-    
+    .titre-centre-interet{
+        font-size: 1rem;
+    }
 
     
 }
