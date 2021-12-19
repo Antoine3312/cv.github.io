@@ -41,7 +41,7 @@ header nav{
     border-radius: 3px;
     border-width: 2px;
     padding: 10px 30px 10px;
-    background-color: white;
+    background-color: #eee;
 }
 
 header nav ul li{
@@ -89,20 +89,18 @@ header nav ul li a:hover{
 /*Body*/
 
 body{
-    background: #333633;
-    background-size: cover;
-    background-position: center;
-    height: 1500px
+    background: #37392E;
+    height: 1500px;
 }
 
 .info-personnel{
     position: absolute;
     top: 160px;
-    background: #eee;
+    background: #EEE5E5;
     width: 100%;
     height: 500px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid #333;
+
+
     z-index: -3;
 }
 
@@ -144,18 +142,18 @@ body{
 .photo{
     position: absolute;
     top:0;
-    right: 0;
+    right: 2.5%;
     height: 100%;
     width: 30%;
-    background: rgb(43,120,228);
-    border-left: 2px solid black;
+    background: #19647E;
+    margin: 2px;
+    border-radius: 10px;
 
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+    
 }
 
 .profil-surlignez-2{
-    background: rgb(43,120,228,0.5);
+    background: #19647E;
     border-radius: 5px;  
 
 }
@@ -170,7 +168,7 @@ body{
     height: 10px;
     border-radius: 5px;
     font-size: 1.5rem;
-    background: rgb(43,120,228);
+    background: #19647E;
     z-index: -1;
     opacity: .5;
     
@@ -184,25 +182,26 @@ body{
     top: 660px;
     width: 100%;
     height: 800px;
-    background: #eee;
+    background: #EEE5E5;
 
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 2px solid black;
+
 }
 .containeur-centre-interet{
     position: relative;
     width: 95%;
     height: 95%;
-    background: rgb(111,168,220);
+    background: #8AAA79;
     border-radius: 20px;
-    border: 2px solid #333;
+
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+    box-shadow: 0 0 5px 0 black;
 }
 
 .gros-titre{
@@ -211,7 +210,7 @@ body{
     font-size: 3rem;
     border-radius: 5px;
     border: 2px solid black;
-    background: rgb(111,168,220);
+    background: #8AAA79;
     font-family: 'Readex Pro';
     padding-left: 10px;
     padding-right: 10px;
@@ -220,7 +219,7 @@ body{
 .contenu-centre-interet{
     width: 47%;
     height: 95%;
-    background: rgb(111,168,220);
+    background: #8AAA79;
 
     display: flex;
     justify-content: center;
@@ -232,7 +231,7 @@ body{
 .contenu{
     width: 100%;
     height: 33%;
-    background: rgb(111,168,220);
+    background: #8AAA79;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,7 +249,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #eee;
+    background: #EEE5E5;
 }
 
 .titre-centre-interet{
@@ -307,6 +306,7 @@ body{
         width: 95%;
         border: none;
         border-radius: 3px;
+        right: 0;
     }
     .centre-interet{
         top: 900px;
@@ -326,6 +326,5 @@ body{
     }
     .gros-titre{
         font-size: 2rem;
-    }
-    
+    }   
 }
