@@ -108,7 +108,7 @@ header nav ul li a:hover{
     left: 50%;
     transform: translate(-50%,-50%);
 
-    font-family: 'Poppins';
+    font-family: 'Readex Pro';
     
     font-size: 4rem;
     color: #eee;
@@ -191,9 +191,10 @@ header nav ul li a:hover{
     color: #333;
 }
 .c1-1, .c2-1{
+
     height: 100px;
     width: 100px;
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 200px;
     margin: 50px;
 
@@ -211,7 +212,7 @@ header nav ul li a:hover{
 .c1-2, .c2-2{
     height: 100px;
     width: 80%;
-
+    
 }
 
 .continuer{
@@ -263,7 +264,7 @@ header nav ul li a:hover{
         height: 60%;
         margin: 25px;
 
-    }
+    } 
     
     
 }
